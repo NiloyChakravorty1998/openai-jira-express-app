@@ -1,0 +1,18 @@
+ROUTE - http://localhost:5050/api/prompt
+METHOD - POST 
+BODY - {
+    "role" : "assistant",
+    "prompt" : "What is the population of India"
+}
+REPONSE - {
+    "prompt": {
+        "content": "What is the population of India",
+        "role": "assistant"
+    },
+    "response": {
+        "role": "assistant",
+        "content": "As of July 2021, the population of India is estimated to be around 1.366 billion people."
+    }
+}
+
+ROLES - assistant,user,system,function
