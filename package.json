@@ -1,0 +1,24 @@
+{
+  "name": "openai-jira-express-app",
+  "version": "1.1.0",
+  "description": "This is a REST API that consumes OPEN AI API and then GETS test cases as RESULTS for JIRA stories",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiloyChakravorty1998/openai-jira-express-app.git"
+  },
+  "keywords": [
+    "openAI",
+    "JIRA",
+    "express.js"
+  ],
+  "author": "Niloy Chakravorty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NiloyChakravorty1998/openai-jira-express-app/issues"
+  },
+  "homepage": "https://github.com/NiloyChakravorty1998/openai-jira-express-app#readme"
+}
