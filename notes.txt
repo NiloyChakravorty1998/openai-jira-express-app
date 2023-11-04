@@ -16,3 +16,4 @@ REPONSE - {
 }
 
 ROLES - assistant,user,system,function
+ECNODING TO BASE64 NECESSARY DURING JIRA API CALL

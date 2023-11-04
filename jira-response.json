@@ -1,0 +1,215 @@
+{
+    "message": "Data fetched for issue EJOA-2",
+    "issueSummary": {
+        "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+        "id": "10001",
+        "self": "https://my-playground-niloy.atlassian.net/rest/api/3/issue/10001",
+        "key": "EJOA-2",
+        "fields": {
+            "statuscategorychangedate": "2023-11-04T21:09:49.529+0530",
+            "issuetype": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/issuetype/10006",
+                "id": "10006",
+                "description": "Stories track functionality or features expressed as user goals.",
+                "iconUrl": "https://my-playground-niloy.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                "name": "Story",
+                "subtask": false,
+                "avatarId": 10315,
+                "entityId": "0a17db43-c5f2-4ad8-9496-7517a4b51d7d",
+                "hierarchyLevel": 0
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/project/10001",
+                "id": "10001",
+                "key": "EJOA",
+                "name": "express-jira-open-ai",
+                "projectTypeKey": "software",
+                "simplified": true,
+                "avatarUrls": {
+                    "48x48": "https://my-playground-niloy.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10418",
+                    "24x24": "https://my-playground-niloy.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10418?size=small",
+                    "16x16": "https://my-playground-niloy.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10418?size=xsmall",
+                    "32x32": "https://my-playground-niloy.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10418?size=medium"
+                }
+            },
+            "fixVersions": [],
+            "aggregatetimespent": null,
+            "resolution": null,
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": null,
+            "workratio": -1,
+            "watches": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/issue/EJOA-2/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "issuerestriction": {
+                "issuerestrictions": {},
+                "shouldDisplay": true
+            },
+            "lastViewed": "2023-11-04T21:09:59.279+0530",
+            "created": "2023-11-04T21:09:48.581+0530",
+            "customfield_10020": [
+                {
+                    "id": 1,
+                    "name": "EJOA Sprint 1",
+                    "state": "active",
+                    "boardId": 2,
+                    "goal": "",
+                    "startDate": "2023-11-04T14:25:41.352Z",
+                    "endDate": "2023-11-18T14:25:38.000Z"
+                }
+            ],
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "customfield_10023": null,
+            "priority": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/priority/3",
+                "iconUrl": "https://my-playground-niloy.atlassian.net/images/icons/priorities/medium.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "customfield_10024": null,
+            "customfield_10025": null,
+            "labels": [],
+            "customfield_10026": null,
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "The Parent Link is only available to Jira Premium users."
+                }
+            },
+            "customfield_10019": "0|i00007:",
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [],
+            "assignee": null,
+            "updated": "2023-11-04T21:10:05.593+0530",
+            "status": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/status/10003",
+                "description": "",
+                "iconUrl": "https://my-playground-niloy.atlassian.net/",
+                "name": "To Do",
+                "id": "10003",
+                "statusCategory": {
+                    "self": "https://my-playground-niloy.atlassian.net/rest/api/3/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "To Do"
+                }
+            },
+            "components": [],
+            "timeoriginalestimate": null,
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "As a network engineer,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "I need to open firewall requests for VCLP001144 to SF prod uri."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "customfield_10015": null,
+            "timetracking": {},
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "security": null,
+            "customfield_10007": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "attachment": [],
+            "aggregatetimeestimate": null,
+            "summary": "Open firewall requests",
+            "creator": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/user?accountId=712020%3Aa7ab5120-ef5a-45f0-ba63-cd3eed0880aa",
+                "accountId": "712020:a7ab5120-ef5a-45f0-ba63-cd3eed0880aa",
+                "emailAddress": "niloychakravorty@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png",
+                    "24x24": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png",
+                    "16x16": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png",
+                    "32x32": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png"
+                },
+                "displayName": "Niloy Chakravorty",
+                "active": true,
+                "timeZone": "Asia/Calcutta",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "reporter": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/user?accountId=712020%3Aa7ab5120-ef5a-45f0-ba63-cd3eed0880aa",
+                "accountId": "712020:a7ab5120-ef5a-45f0-ba63-cd3eed0880aa",
+                "emailAddress": "niloychakravorty@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png",
+                    "24x24": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png",
+                    "16x16": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png",
+                    "32x32": "https://secure.gravatar.com/avatar/606360e7d656a59ce80a55c7df692b9f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNC-4.png"
+                },
+                "displayName": "Niloy Chakravorty",
+                "active": true,
+                "timeZone": "Asia/Calcutta",
+                "accountType": "atlassian"
+            },
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10001": null,
+            "customfield_10002": null,
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/issue/EJOA-2/votes",
+                "votes": 0,
+                "hasVoted": false
+            },
+            "comment": {
+                "comments": [],
+                "self": "https://my-playground-niloy.atlassian.net/rest/api/3/issue/10001/comment",
+                "maxResults": 0,
+                "total": 0,
+                "startAt": 0
+            },
+            "worklog": {
+                "startAt": 0,
+                "maxResults": 20,
+                "total": 0,
+                "worklogs": []
+            }
+        }
+    }
+}
