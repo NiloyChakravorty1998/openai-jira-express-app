@@ -3,7 +3,9 @@ import openai from "../../config/openAIconfig.js";
 async function main (prompt) {
     const chatCompletion = await openai.chat.completions.create({
         model: "gpt-3.5-turbo",
-        messages: [{"role": prompt.role, "content": prompt.content}],
+        messages: [{"role": prompt.role ? prompt.role : `assistant`, "content": prompt.content ? prompt.content : prompt}],
+        max_tokens: 4000,
+        temperature: 0.6
       });
       return chatCompletion.choices[0].message;
 }
