@@ -13,7 +13,6 @@ async function jiraService(req, res, next) {
         //GET DESCRIPTION
         const entireContent =data.fields.description.content;
         const entireDesc = concatenateDescriptionContent(entireContent);
-        console.log(entireDesc);
         const response = {
             issueKey,
             summary,
@@ -43,4 +42,4 @@ function concatenateDescriptionContent(content) {
     return result;
   }
 
-export default jiraService;
+export {jiraService as default, concatenateDescriptionContent};
