@@ -7,8 +7,9 @@ async function getStoryInfo(issue) {
         // EXTRACT DATA
         const issueKey = storyInfo.key; // Issue Key (e.g., "EJOA-2")
         const summary = storyInfo.fields.summary; // Summary (e.g., "Open firewall requests")
-        const description = storyInfo.fields.description.content[1].content[0].text; // Description (e.g., "I need to open firewall requests for VCLP001144 to SF prod uri.")
         const role = storyInfo.fields.description.content[0].content[0].text; // Text "As a developer"
+        const description = storyInfo.fields.description.content[1].content[0].text; // Description (e.g., "I need to open firewall requests for VCLP001144 to SF prod uri.")
+    
         const response = {
             issueKey,
             summary,

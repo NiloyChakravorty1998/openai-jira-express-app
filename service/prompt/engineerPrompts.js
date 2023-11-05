@@ -10,7 +10,7 @@ async function engineerPrompt(storyInfo)
     if(acknowledge)
     {
         const prompt = storyInfo.description;
-        const response = await main(prompt)
+        const response = await main(prompt);
         if(response)
         {
             return response;
