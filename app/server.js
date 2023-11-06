@@ -13,9 +13,9 @@ const port = process.env.SERVER_PORT || 3000;
 
 //MIDDLEWARE 
 app.use(express.json());
-app.use('/api/prompt', promptRouter);
-app.use('/api/jira',jiraRouter);
-app.use('/api/auto',integrationRouter);
+app.use('/api/v1/prompt', promptRouter);
+app.use('/api/v1/jira',jiraRouter);
+app.use('/api/v1/integration-service',integrationRouter);
 //START SERVER
 app.listen(port, () => {
     console.log(`Application started on http://localhost:${port}`);
