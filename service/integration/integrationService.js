@@ -1,3 +1,4 @@
+import exportToTextFile from '../../utility/exportResponse.js';
 import getStoryInfo from '../../utility/storyInfoUtil.js'
 import engineerPrompt from '../prompt/engineerPrompts.js';
 
@@ -12,10 +13,14 @@ async function integrationService (req,res,next) {
     const response = await engineerPrompt(storyInfo);
     if(response)
     {
-        res.status(200).json({
+        //WRITE IN FILE 
+        const exportdata ={
             story : storyId,
             response
-        })
+        }
+        exportToTextFile(exportdata);
+        res.status(200).json(exportdata);
+        
     }
     else{
         res.status(500).json({

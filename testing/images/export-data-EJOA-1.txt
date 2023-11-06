@@ -1,0 +1,6 @@
+  STORY : EJOA-1
+
+  ANSWER : - The export to excel button is visible on the UI for all three sections: Market Tier, Annual Mileage Ordering Table, and Vehicle History Ordering Table.
+- Clicking on the export to excel button generates an excel spreadsheet containing the data from the respective section.
+- The excel spreadsheet contains all the necessary data and is formatted correctly.
+- The exported data matches the data displayed on the UI for each section.

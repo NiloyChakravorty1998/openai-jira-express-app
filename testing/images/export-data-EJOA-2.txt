@@ -1,0 +1,23 @@
+  STORY : EJOA-2
+
+  ANSWER : To open firewall requests for VCLP001144 to SF prod URI, you will need to follow these steps:
+
+1. Identify the IP address of VCLP001144 and the specific SF prod URI that needs to be accessed.
+
+2. Log in to the firewall management console or interface.
+
+3. Locate the firewall rules or access control list (ACL) configuration settings.
+
+4. Create a new rule or modify an existing rule to allow traffic from VCLP001144 to the SF prod URI.
+
+5. Specify the source IP address as VCLP001144 or the IP range if applicable.
+
+6. Set the destination IP address or hostname to the SF prod URI.
+
+7. Select the appropriate protocol (typically HTTP or HTTPS) and port number (usually 80 for HTTP and 443 for HTTPS).
+
+8. Save the firewall configuration changes and apply them.
+
+9. Test the connectivity by attempting to access the SF prod URI from VCLP001144.
+
+10. If the connection is successful, the firewall requests for VCLP001144 to SF prod URI have been opened. If not, review the firewall configuration and ensure that all necessary rules are in place.
