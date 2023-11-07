@@ -1,6 +1,28 @@
-  STORY : EJOA-1
+STORY : EJOA-1
 
-  ANSWER : - The export to excel button is visible on the UI for all three sections: Market Tier, Annual Mileage Ordering Table, and Vehicle History Ordering Table.
-- Clicking on the export to excel button generates an excel spreadsheet containing the data from the respective section.
-- The excel spreadsheet contains all the necessary data and is formatted correctly.
-- The exported data matches the data displayed on the UI for each section.
+ANSWER :
+Product Owner Task: Validate Export to Excel Button
+
+Acceptance Criteria:
+
+1. The export to excel option is present in the UI.
+2. The export to excel option is available for the Market Tier (both home and autob) Annual Mileage Ordering Table.
+3. The export to excel option is available for the Vehicle History Ordering Table.
+
+Steps to Validate:
+
+1. Open the application and navigate to the page where the export to excel button should be present.
+2. Verify that the export to excel button is visible on the page.
+3. Verify that the export to excel button is labeled correctly.
+4. Click on the export to excel button for the Market Tier (both home and autob) Annual Mileage Ordering Table.
+5. Verify that a spreadsheet is downloaded or opened with the data from the Market Tier (both home and autob) Annual Mileage Ordering Table.
+6. Verify that the data in the spreadsheet is accurate and matches the data displayed on the UI.
+7. Click on the export to excel button for the Vehicle History Ordering Table.
+8. Verify that a spreadsheet is downloaded or opened with the data from the Vehicle History Ordering Table.
+9. Verify that the data in the spreadsheet is accurate and matches the data displayed on the UI.
+10. Repeat the steps for different scenarios and edge cases to ensure the export to excel functionality is working correctly in all cases.
+
+Validation Result:
+
+- If all the acceptance criteria are met and the export to excel functionality works correctly in all scenarios, mark the task as validated.
+- If any of the acceptance criteria are not met or the export to excel functionality does not work correctly in any scenario, provide detailed feedback on the issues and mark the task as not validated.

@@ -11,7 +11,7 @@ async function exportToTextFile(exportData) {
     const filePath = `${process.env.FILE_PATH}/export-data-${story}.txt`;
 
     // STRUCTURE CONTENT OF FILE
-    const structuredString = `  STORY : ${story}\n\n  ANSWER : ${response.content}`;
+    const structuredString = `STORY : ${story}\n\nANSWER :\n${response.content}`;
     
     fs.writeFile(filePath, structuredString, 'utf8', (err) => {
       if (err) {
