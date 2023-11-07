@@ -4,6 +4,6 @@ import promptService from '../service/prompt/promptService.js';
 //DECLARE ROUTER TO HANDLE ALL PROMPT ROUTES
 const promptRouter = express.Router();
 
-promptRouter.post('/', promptService);
+promptRouter.get('/', promptService);
 
 export default promptRouter;
