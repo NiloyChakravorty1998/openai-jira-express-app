@@ -4,7 +4,7 @@ async function main (prompt) {
   try{
     const chatCompletion = await openai.chat.completions.create({
         model: "gpt-3.5-turbo",
-        messages: [{"role": prompt.role ? prompt.role : `assistant`, "content": prompt.content ? prompt.content : prompt}],
+        messages: [{"role": prompt.role ? prompt.role : `system`, "content": prompt.content ? prompt.content : prompt}],
         max_tokens: 4000,
         temperature: 0.8
       });

@@ -22,3 +22,10 @@ ECNODING TO BASE64 NECESSARY DURING JIRA API CALL
 IMPROVE MODEL ACCURACY
 IMPROVE PROMPTS USING PROMPT ENGINEERING
 FORMAT RESPONSE DATA
+
+Hi Prathmesh, good morning.
+I was working on the gen-AI use case that we discussed last friday and as a
+part of that I have been developing a node.js application integrated with openAI to
+come up with UAT test cases.
+I would love to share a sample response that the app has generated, if you would like to take a
+look at that.
