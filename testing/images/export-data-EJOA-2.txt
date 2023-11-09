@@ -1,28 +1,20 @@
 STORY : EJOA-2
 
 ANSWER :
-To open firewall requests for VCLP001144 to SF prod URI, you will need to follow these steps:
+To open firewall requests for VCLP001144 to the SF prod URI, you will need to follow these steps:
 
-1. Identify the specific firewall device or software that you will be configuring.
+1. Determine the specific SF prod URI that needs to be accessed by VCLP001144. This could be a specific IP address or domain name.
 
-2. Access the firewall device or software using the appropriate method (console, SSH, web interface, etc.).
+2. Log in to the firewall management console or interface.
 
-3. Locate the configuration settings related to firewall rules or access control lists (ACLs).
+3. Locate the configuration settings for inbound and outbound firewall rules.
 
-4. Create a new firewall rule to allow traffic from VCLP001144 to the SF prod URI.
+4. Create a new inbound rule to allow traffic from VCLP001144 to the SF prod URI. Depending on the firewall, you may need to specify the source IP address (VCLP001144) and the destination IP address or domain name (SF prod URI).
 
-5. Specify the source IP address or range as "VCLP001144" in the rule configuration.
+5. Configure the rule to allow the specific type of traffic required. This could include protocols such as HTTP (port 80) or HTTPS (port 443).
 
-6. Define the destination as the SF prod URI, which may be in the form of an IP address, domain name, or URL.
+6. Save the new rule and apply the configuration changes to the firewall.
 
-7. Select the appropriate protocol for the traffic, such as TCP or UDP.
+7. Test the connectivity from VCLP001144 to the SF prod URI to ensure that the firewall rule is working correctly.
 
-8. Specify the port(s) that need to be open for the SF prod URI. This information can usually be obtained from the application or service running on the SF prod URI.
-
-9. Configure any additional options or restrictions as required by your network policies or security requirements.
-
-10. Save or apply the configuration changes to activate the new firewall rule.
-
-11. Test the connectivity from VCLP001144 to the SF prod URI to ensure that the firewall rule is working as intended.
-
-Note: The exact steps may vary depending on the specific firewall device or software you are using. Consult the documentation or user guide for your firewall system for more detailed instructions.
+Note: The specific steps and terminology may vary depending on the firewall brand and model you are using. It is recommended to consult the firewall's documentation or contact the vendor's support for detailed instructions.
