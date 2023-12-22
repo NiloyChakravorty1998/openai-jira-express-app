@@ -1,5 +1,5 @@
 import openai from "../../config/openAIconfig.js";
-import { sampleExtract, sampleResponse } from "../../utility/establishData.js";
+import { sampleExtract, sampleResponse } from "../../utility/contextData.js";
 
 async function main (prompt) {
   try{
