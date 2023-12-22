@@ -1,4 +1,4 @@
-import { defRole, main } from "../open-ai/openAIRequests.js"
+import { defRole, main, test } from "../open-ai/openAIRequests.js"
 
 async function engineerPrompt(storyInfo)
 {
@@ -7,9 +7,9 @@ async function engineerPrompt(storyInfo)
     //GIVING ROLE AS A PROMPT
     const acknowledge = await defRole(role);
     //FEED SAMPLE RESPONSE (RESPONSE SHOULD BE DETAILED)
-
+    const response = await test();
     //IF ACKNOWLEDGED, FEED THE OTHER SET OF INFO TO GET OUTPUT
-    if(acknowledge)
+    if(acknowledge && response)
     {
         const prompt = storyInfo.description;
         const response = await main(prompt);

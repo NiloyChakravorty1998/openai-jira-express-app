@@ -1,22 +1,26 @@
 STORY : EJOA-2
 
 ANSWER :
-To open firewall requests for Websphere Linux server to Snowflake prod URI, you need to follow these steps:
+To allow communication between your Websphere Linux server and the Snowflake prod URI, you need to open specific firewall requests. Follow these general steps:
 
-1. Identify the Snowflake prod URI (Uniform Resource Identifier) that you need to connect to. This will typically be in the format of `<account_name>.<region>.snowflakecomputing.com`.
+1. Identify the Snowflake prod URI: Obtain the hostname or IP address of the Snowflake prod server you need to connect to. This information should be provided by the Snowflake administrator.
 
-2. Log in to the firewall or security device that is responsible for managing the network traffic on the Websphere Linux server.
+2. Determine the communication protocol and port: Identify the protocol (HTTP, HTTPS, etc.) and port number that needs to be opened to establish a connection. Snowflake commonly uses HTTPS over port 443.
 
-3. Locate the configuration settings for the firewall rules or access control lists (ACLs) that govern outbound traffic from the Websphere server.
+3. Configure the firewall on the Websphere Linux server:
 
-4. Create a new rule or modify an existing rule to allow outbound traffic to the Snowflake prod URI.
+   - Access the firewall configuration on the Websphere Linux server, which may vary based on the Linux distribution you are using.
 
-5. Specify the protocol and port number that Snowflake uses for communication. Snowflake supports both HTTPS (TCP port 443) and HTTP (TCP port 80) protocols. It is recommended to use the HTTPS protocol for secure communication.
+   - Open the required port for incoming/outgoing traffic. For example, if the Snowflake prod URI uses HTTPS on port 443, you need to allow outbound traffic on port 443.
 
-6. If you have a specific IP address or range that you want to allow traffic to the Snowflake prod URI, you can specify it in the rule. Otherwise, you can leave the source IP address as any or use a wildcard to match any source IP address.
+   - You can use the `iptables` command to open the required port. For instance, to open port 443, you can run the following command:
 
-7. Save the changes to the firewall configuration.
+     ```
+     sudo iptables -A OUTPUT -p tcp --dport 443 -j ACCEPT
+     ```
 
-8. Test the connectivity from the Websphere Linux server to the Snowflake prod URI to ensure that the firewall rules are working correctly.
+   - Make sure to save the firewall configuration so that it persists after system reboots.
 
-Note: It is essential to follow your organization's security policies and guidelines while making firewall rule changes. Make sure to involve the appropriate network and security teams to ensure compliance and security best practices.
+4. Test the connection: After opening the firewall requests, attempt to establish a connection from the Websphere Linux server to the Snowflake prod URI. Verify that the communication is successful.
+
+Note: The above steps provide a general guideline. It is recommended to consult your organization's network/security policies and involve the appropriate team responsible for firewall management to ensure compliance and avoid any unintended security risks.

@@ -1,22 +1,10 @@
 STORY : EJOA-1
 
 ANSWER :
-Scenario 1: Export to excel option for Market Tier (Home)
-Given that I am on the Market Tier (Home) page
-When I look for the export to excel button
-Then I should see the export to excel option present in the UI
-
-Scenario 2: Export to excel option for Market Tier (Auto)
-Given that I am on the Market Tier (Auto) page
-When I look for the export to excel button
-Then I should see the export to excel option present in the UI
-
-Scenario 3: Export to excel option for Annual Mileage Ordering Table
-Given that I am on the Annual Mileage Ordering Table page
-When I look for the export to excel button
-Then I should see the export to excel option present in the UI
-
-Scenario 4: Export to excel option for Vehicle History Ordering Table
-Given that I am on the Vehicle History Ordering Table page
-When I look for the export to excel button
-Then I should see the export to excel option present in the UI
+Acceptance Criteria:
+1. The "Export to Excel" button is visible on the UI for the Market Tier (both home and auto) Annual Mileage Ordering Table.
+2. Clicking on the "Export to Excel" button for the Market Tier Annual Mileage Ordering Table generates an Excel spreadsheet containing the data from the table.
+3. The "Export to Excel" button is visible on the UI for the Vehicle History Ordering Table.
+4. Clicking on the "Export to Excel" button for the Vehicle History Ordering Table generates an Excel spreadsheet containing the data from the table.
+5. The generated Excel spreadsheets contain accurate and complete data from the respective ordering tables.
+6. The exported Excel spreadsheets maintain the formatting and structure of the original tables.

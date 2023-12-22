@@ -1,0 +1,3 @@
+export const sampleExtract = `Validate Export to Excel. Verify button click creates a spreadsheet. Criteria: Excel for a) Market Tier (home and auto) b) Annual Mileage c) Vehicle History.`;
+
+export const sampleResponse = `Criteria: 1. Export to Excel in UI. 2. Available for Market Tier, Annual Mileage, and Vehicle History. Steps: 1. Open app, find Export to Excel. 2. Verify visibility and label. 3. Click for Market Tier and Annual Mileage. 4. Verify downloaded data. 5. Click for Vehicle History. 6. Verify downloaded data. 7. Repeat for scenarios. Result: - If criteria met, mark task validated. - If issues, provide feedback and mark task not validated.`;
