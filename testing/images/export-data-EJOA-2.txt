@@ -1,20 +1,22 @@
 STORY : EJOA-2
 
 ANSWER :
-To open firewall requests for VCLP001144 to the SF prod URI, you will need to follow these steps:
+To open firewall requests for Websphere Linux server to Snowflake prod URI, you need to follow these steps:
 
-1. Determine the specific SF prod URI that needs to be accessed by VCLP001144. This could be a specific IP address or domain name.
+1. Identify the Snowflake prod URI (Uniform Resource Identifier) that you need to connect to. This will typically be in the format of `<account_name>.<region>.snowflakecomputing.com`.
 
-2. Log in to the firewall management console or interface.
+2. Log in to the firewall or security device that is responsible for managing the network traffic on the Websphere Linux server.
 
-3. Locate the configuration settings for inbound and outbound firewall rules.
+3. Locate the configuration settings for the firewall rules or access control lists (ACLs) that govern outbound traffic from the Websphere server.
 
-4. Create a new inbound rule to allow traffic from VCLP001144 to the SF prod URI. Depending on the firewall, you may need to specify the source IP address (VCLP001144) and the destination IP address or domain name (SF prod URI).
+4. Create a new rule or modify an existing rule to allow outbound traffic to the Snowflake prod URI.
 
-5. Configure the rule to allow the specific type of traffic required. This could include protocols such as HTTP (port 80) or HTTPS (port 443).
+5. Specify the protocol and port number that Snowflake uses for communication. Snowflake supports both HTTPS (TCP port 443) and HTTP (TCP port 80) protocols. It is recommended to use the HTTPS protocol for secure communication.
 
-6. Save the new rule and apply the configuration changes to the firewall.
+6. If you have a specific IP address or range that you want to allow traffic to the Snowflake prod URI, you can specify it in the rule. Otherwise, you can leave the source IP address as any or use a wildcard to match any source IP address.
 
-7. Test the connectivity from VCLP001144 to the SF prod URI to ensure that the firewall rule is working correctly.
+7. Save the changes to the firewall configuration.
 
-Note: The specific steps and terminology may vary depending on the firewall brand and model you are using. It is recommended to consult the firewall's documentation or contact the vendor's support for detailed instructions.
+8. Test the connectivity from the Websphere Linux server to the Snowflake prod URI to ensure that the firewall rules are working correctly.
+
+Note: It is essential to follow your organization's security policies and guidelines while making firewall rule changes. Make sure to involve the appropriate network and security teams to ensure compliance and security best practices.
