@@ -2,9 +2,20 @@ STORY : EJOA-1
 
 ANSWER :
 Acceptance Criteria:
-1. The "Export to Excel" button is visible on the UI for the Market Tier (both home and auto) Annual Mileage Ordering Table.
-2. Clicking on the "Export to Excel" button for the Market Tier Annual Mileage Ordering Table generates an Excel spreadsheet containing the data from the table.
-3. The "Export to Excel" button is visible on the UI for the Vehicle History Ordering Table.
-4. Clicking on the "Export to Excel" button for the Vehicle History Ordering Table generates an Excel spreadsheet containing the data from the table.
-5. The generated Excel spreadsheets contain accurate and complete data from the respective ordering tables.
-6. The exported Excel spreadsheets maintain the formatting and structure of the original tables.
+
+1. The export to excel button is visible on the UI.
+2. The export to excel button is labeled as "Export to Excel".
+3. The export to excel button is present in the Market Tier section of the UI.
+4. The export to excel button is present in both the home and autob sections of the Market Tier.
+5. The export to excel button is present in the Annual Mileage Ordering Table section of the UI.
+6. The export to excel button is present in the Vehicle History Ordering Table section of the UI.
+7. Clicking on the export to excel button generates an excel spreadsheet.
+8. The generated excel spreadsheet contains the data from the corresponding section (Market Tier, Annual Mileage Ordering Table, or Vehicle History Ordering Table).
+9. The generated excel spreadsheet is in a readable format and can be opened without any errors.
+10. The exported excel spreadsheet includes all the relevant data fields and columns from the corresponding section.
+11. The exported excel spreadsheet includes the correct data and there are no missing or incorrect values.
+12. The exported excel spreadsheet is downloadable and can be saved to the local system.
+13. The export to excel functionality is responsive and works efficiently for large datasets.
+14. The export to excel functionality does not cause any system errors or crashes.
+15. The export to excel functionality is compatible with different web browsers and operating systems.
+16. The export to excel functionality is properly documented in the product documentation or user manual.

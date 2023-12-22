@@ -9,7 +9,7 @@ async function main (prompt) {
           {"role" : "user", "content" : prompt}
         ],
         max_tokens: 4000,
-        temperature: 0.8
+        temperature: 0.3
       });
       return chatCompletion.choices[0].message;
     }
